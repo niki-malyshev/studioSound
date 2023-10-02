@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EF7189C-26EC-4073-B946-A9A6697BE943}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StudioSound</RootNamespace>
+    <AssemblyName>StudioSound</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddForms\ClientAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\ClientAddForm.Designer.cs">
+      <DependentUpon>ClientAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\ContractAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\ContractAddForm.Designer.cs">
+      <DependentUpon>ContractAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\EquipAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\EquipAddForm.Designer.cs">
+      <DependentUpon>EquipAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\RoomAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\RoomAddForm.Designer.cs">
+      <DependentUpon>RoomAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\TarifAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\TarifAddForm.Designer.cs">
+      <DependentUpon>TarifAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\TimeTableAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\TimeTableAddForm.Designer.cs">
+      <DependentUpon>TimeTableAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\WorkerAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\WorkerAddForm.Designer.cs">
+      <DependentUpon>WorkerAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm\ClientChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm\ClientChangeForm.Designer.cs">
+      <DependentUpon>ClientChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm\ContractChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm\ContractChangeForm.Designer.cs">
+      <DependentUpon>ContractChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm\EquipChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm\EquipChangeForm.Designer.cs">
+      <DependentUpon>EquipChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm\RoomChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm\RoomChangeForm.Designer.cs">
+      <DependentUpon>RoomChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm\TarifChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm\TarifChangeForm.Designer.cs">
+      <DependentUpon>TarifChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\TimeTableAddForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\TimeTableAddForm1.Designer.cs">
+      <DependentUpon>TimeTableAddForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm\TimeTableChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm\TimeTableChangeForm.Designer.cs">
+      <DependentUpon>TimeTableChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm\WorkerChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm\WorkerChangeForm.Designer.cs">
+      <DependentUpon>WorkerChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectForm.Designer.cs">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\WorkerListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\WorkerListForm.Designer.cs">
+      <DependentUpon>WorkerListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Studio_soundDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Studio_soundDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddForms\ClientAddForm.resx">
+      <DependentUpon>ClientAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\ContractAddForm.resx">
+      <DependentUpon>ContractAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\EquipAddForm.resx">
+      <DependentUpon>EquipAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\RoomAddForm.resx">
+      <DependentUpon>RoomAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\TarifAddForm.resx">
+      <DependentUpon>TarifAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\TimeTableAddForm.resx">
+      <DependentUpon>TimeTableAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\TimeTableAddForm1.resx">
+      <DependentUpon>TimeTableAddForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\WorkerAddForm.resx">
+      <DependentUpon>WorkerAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm\ClientChangeForm.resx">
+      <DependentUpon>ClientChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm\ContractChangeForm.resx">
+      <DependentUpon>ContractChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm\EquipChangeForm.resx">
+      <DependentUpon>EquipChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm\RoomChangeForm.resx">
+      <DependentUpon>RoomChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm\TarifChangeForm.resx">
+      <DependentUpon>TarifChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm\TimeTableChangeForm.resx">
+      <DependentUpon>TimeTableChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm\WorkerChangeForm.resx">
+      <DependentUpon>WorkerChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectForm.resx">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\WorkerListForm.resx">
+      <DependentUpon>WorkerListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Studio_soundDataSet.xsc">
+      <DependentUpon>Studio_soundDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Studio_soundDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Studio_soundDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Studio_soundDataSet.xss">
+      <DependentUpon>Studio_soundDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,41 @@
+D:\Univer\Semestr_6\Labs\БД\StudioSound\bin\Debug\StudioSound.exe.config
+D:\Univer\Semestr_6\Labs\БД\StudioSound\bin\Debug\StudioSound.exe
+D:\Univer\Semestr_6\Labs\БД\StudioSound\bin\Debug\StudioSound.pdb
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.csproj.AssemblyReference.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.csproj.SuggestedBindingRedirects.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.ConnectForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.WorkerListForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.Properties.Resources.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.csproj.GenerateResource.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.csproj.CoreCompileInputs.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.exe
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.pdb
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.AddForms.WorkerAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound\obj\Debug\StudioSound.ChangeForm.WorkerChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\bin\Debug\StudioSound.exe.config
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\bin\Debug\StudioSound.exe
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\bin\Debug\StudioSound.pdb
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.csproj.AssemblyReference.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.csproj.SuggestedBindingRedirects.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.AddForms.ClientAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.AddForms.ContractAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.AddForms.EquipAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.AddForms.RoomAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.AddForms.TarifAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.AddForms.TimeTableAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.AddForms.WorkerAddForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.ClientChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.ContractChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.EquipChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.RoomChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.TarifChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.TimeTableChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.WorkerChangeForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ConnectForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.WorkerListForm.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.Properties.Resources.resources
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.csproj.GenerateResource.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.csproj.CoreCompileInputs.cache
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.exe
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.pdb
+D:\Univer\Semestr_6\Labs\БД\StudioSound — копия\obj\Debug\StudioSound.ChangeForm.TimeTableAddForm1.resources
